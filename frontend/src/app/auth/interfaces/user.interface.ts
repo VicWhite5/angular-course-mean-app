@@ -4,3 +4,8 @@ export interface User {
     email: string;
     roles: string[];
 }
+
+export interface Data {
+    user:  User;
+    token: string;
+}
